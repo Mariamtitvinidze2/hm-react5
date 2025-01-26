@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Circle/CIrcle.css'
+import '../Circle/Circle.css'
 const CIrcle = (props) => {
   return (
      <button className='Circle'>{props.circle}</button> 
