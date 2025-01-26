@@ -1,0 +1,50 @@
+.Circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51px;
+    height: 51px;
+    border-radius: 28px;
+    border: 2;
+    background-color:  var(--Dark-Blue, #262E38);
+    color: white;
+    font-family: "Overpass";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+letter-spacing: 0.2px;
+transition: background-color 0.8s;
+    border: none;
+    cursor: pointer;
+} 
+
+.Circle:hover {
+    background-color: var(--Medium-Gray, #7C8798);
+    color: black;
+    transition: 0.6s ease;
+}
+
+.Circle:active {
+    background-color:var(--Orange, #FC7614); 
+    color: black; 
+}
+
+
+@media  (max-width: 1040px) and (min-width: 350px) {
+    .Circle {
+        width: 42px;
+        height: 42px;
+        
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px; 
+        
+    }
+
+
+}
+ 
+  
+  
+  

@@ -1,0 +1,54 @@
+.Texts {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 90px;
+}
+
+.h3 {
+    color: var(--Pure-White, #FFF);
+    font-feature-settings: 'liga' off, 'clig' off;
+    
+   
+    font-family: "Overpass";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.p {
+    color: var(--Light-Grey, #969FAD);
+font-feature-settings: 'liga' off, 'clig' off;
+
+
+font-family: "Overpass";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+
+
+@media (max-width: 1040px) and (min-width: 350px) {
+    .Texts {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 70px;
+    }
+
+    .h3 {
+        width: 279px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+     
+    .p {
+        width: 279px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+       
+    }
+
+}

@@ -1,0 +1,32 @@
+.button {
+    width: 341px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 22.5px;
+background: var(--Orange, #FC7614);
+align-items: center;
+justify-content: center;
+color: var(--Pure-White, #FFF);
+font-feature-settings: 'liga' off, 'clig' off;
+
+
+font-family: "Overpass";
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2px;
+}
+
+.button:hover{
+    background-color: #FFF;
+    color: #FC7614;
+}
+@media  (max-width: 1040px) and (min-width: 350px) {
+    .button {
+        width: 279px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 22.5px;
+    }
+}
