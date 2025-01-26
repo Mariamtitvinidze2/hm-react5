@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './MainDiv.css';
+import './MainCard.css';
 import Oval from '../../__molecules/Oval/Oval';
 import Texts from '../../__molecules/Texts/Texts';
 import Circles from '../../__molecules/Circles/Circles';
@@ -7,7 +7,7 @@ import Button from '../Button/Button';
 import Newimage from '../../__molecules/Newimage/Newimage';
 
 
-const MainDiv = () => {
+const MainCard = () => {
   const [selectedCircle, setSelectedCircle] = useState(null); 
   const [isSubmitted, setIsSubmitted] = useState(false); 
 
@@ -22,7 +22,7 @@ const MainDiv = () => {
   };
 
   return (
-    <div className='MainDiv'>
+    <div className='MainCard'>
       {!isSubmitted ? (
         <>
         <Oval/>
@@ -46,4 +46,4 @@ const MainDiv = () => {
   );
 };
 
-export default MainDiv;
+export default MainCard;

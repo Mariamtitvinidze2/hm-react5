@@ -1,6 +1,7 @@
 
 import './App.css'
-import MainDiv from './components/__organisms/MainDiv/mainDiv'
+import MainCard from './components/__organisms/MainCard/MainCard'
+
 
 
 
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <>
-     <MainDiv/>
+     <MainCard/>
     </>
   )
 }
